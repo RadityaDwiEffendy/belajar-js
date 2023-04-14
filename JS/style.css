@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+#test{
+    border: none;
+    border-bottom: 1.4px solid ;
+    height: 30px;
+}
+
+#test:hover{
+    border-bottom: 1.4px solid purple;
+}

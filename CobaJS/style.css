@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.badan{
+    width: 100%;
+    height: 100vh;
+    background-color: green;
+}
+
+.tulis{
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tulis input{
+    margin: 20px;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.tulis button{
+    width: 100px;
+    height: 25px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.tulis button:hover{
+    cursor: pointer;
+}

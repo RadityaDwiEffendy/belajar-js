@@ -1,0 +1,428 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    background-image:url(img/bg.png);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+}
+
+
+.navbar{
+    width: 100%;
+    height: 60px;
+    box-shadow: 12px 12px 12px rgb(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    padding-left: 8%;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+
+.navbar p{
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+}
+
+
+
+.nav-link{
+    display: flex;
+    justify-content: space-between;
+    right: 19%;
+    position: absolute;
+    gap: 20%;
+}
+
+
+
+
+
+.nav-link a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-link a:hover{
+    color: wheat;
+}
+
+.Text{
+    position: absolute;
+    left: 10%;
+    top: 230px;
+}
+
+
+.Text p:first-child{
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.Text p:nth-child(2){
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+}
+
+
+
+.Text p:nth-child(3){
+    font-size: 30px;
+    font-weight: 100;
+    line-height: normal;
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.Here{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: solid black 1px;
+}
+
+.Here:hover{
+    background-color: gray;
+}
+
+.Here{
+    cursor: pointer;
+}
+
+
+.Download:hover{
+    background-color: gray;
+}
+
+
+.Download{
+    cursor: pointer;
+}
+
+
+
+.Download{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #2f3640;
+    color: aliceblue;
+    border: solid black 1px;
+}
+
+.model{
+    position: absolute;
+    right: 300px;
+    top: 170px;
+    width: 330px;
+    height: 430px;
+}
+
+
+.about{
+    position: relative;
+    width: 80%;
+    background-color: white;
+    box-shadow: 2px 2px 12px rgb(0, 0, 0, 0.2);
+    margin: -3% auto 20px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+    padding-right: 200px;
+}
+
+.about img{
+    height: 250px;
+    margin: 30px;
+}
+
+
+.text-about p:first-child{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+
+.text-about p:nth-child(2),
+.text-about p:nth-child(3){
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+
+
+.Button-aboutme{
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    border: solid black 1px;
+    font-size: 10px;
+}    
+
+.Button-download:hover{
+    background-color: grey;
+}
+
+.Button-aboutme:hover{
+    background-color: grey;
+}
+
+.Button-aboutme{
+    cursor: pointer;
+}
+
+.Button-download{
+    cursor: pointer;
+}
+
+
+.Button-download{
+    margin-left: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: #2f3640;
+    border: none;
+    font-size: 10px;
+    color: white;
+}    
+
+
+
+.Skill{
+    width: 450px;
+    margin-top: 50px;
+    margin-left: 12%;
+    margin-top: 50px;
+    line-height: 0px;
+    
+}
+
+.Skill p:first-child{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 0px;
+}
+
+.Skill p:nth-child(2){
+    font-weight: bold;
+    line-height: 30px;
+    line-height: normal;
+}
+
+
+.skill{
+    margin-left: 12%;
+    margin-top: 50px;
+    width: 450px;
+    line-height: normal;
+}
+
+.skill p:first-child{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.skill p:nth-child(2){
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.skill p:nth-child(3){
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.card-skill{
+    width: 78%;
+    display: flex;
+    margin: 50px auto;
+    justify-content: space-evenly;
+}
+
+.skill1,
+.skill2,
+.skill3{
+    width: 250px;
+    height: 320px;
+    background-color: #2f3640;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 2px 2px 12px rgb(0, 0, 0, 0.2);
+}
+
+
+.skill1 div,
+.skill2 div,
+.skill3 div{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #2f3640;
+}
+
+
+.skill1 p:first-of-type,
+.skill2 p:first-of-type,
+.skill3 p:first-of-type{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.skill1 p:nth-last-child(2),
+.skill2 p:nth-last-child(2),
+.skill3 p:nth-last-child(2){
+    font-size: 12px;
+    color:  white;
+    margin-bottom: 20px;
+}
+
+.more,
+.more1,
+.more2{
+    width: 90px;
+    height: 28px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 12px;
+}
+
+.more:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+
+.more1:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+
+.more2:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+
+
+.project{
+    margin-top: 80px;
+    width: 100%;
+    height: 200px;
+    background-color: #2f3640;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.project hr{
+    width: 25%;
+    color: white;
+}
+
+
+.project p{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.projectcontact:hover{
+    cursor: pointer;
+}
+
+
+.projectcontact{
+    margin-top: 20px;
+    width: 90px;
+    height: 30px;
+    border: none;
+}
+
+.footer{
+    margin-top: 40px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+
+.footer p:first-child{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer p:nth-child(2){
+    width: 700px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.list-icon{
+    display: flex;
+    width: 250px;
+    justify-content: space-evenly;
+}
+
+
+.list-icon div{
+    margin-top: 40px;
+    width: 40px;
+    height: 40px;
+    background-color: #b2bec3;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.twiter{
+    width: 20px;
+    height: 20px;
+}
+
+.facebook{
+    width: 20px;
+    height: 20px;   
+}
+
+.instagram{
+    width: 20px;
+    height: 20px; 
+}
+
+.link1{
+    width: 20px;
+    height: 20px; 
+}
